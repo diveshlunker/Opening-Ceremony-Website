@@ -1485,6 +1485,7 @@ header {
 
 .title1 {
   font: 46px/48px Great Vibes;
+    color:red;
 }
 
 .title1_2 {
@@ -2011,4 +2012,7 @@ a.maplink:active {
 
 a.maplink:visited {
   text-decoration: none;
+}
+.familyName{
+    color:red;
 }
