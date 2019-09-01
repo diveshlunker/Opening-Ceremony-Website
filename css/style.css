@@ -1030,42 +1030,11 @@ header {
 .story_img {
   width: 70%;
   height: 100%;
-  background-size: cover !important;
+  background-size:cover !important;
   float: left;
   background-repeat: no-repeat !important;
   position: relative;
   background-position: center !important;
-}
-
-.youtube {
-  position: absolute;
-  color: #FFF !important;
-  text-decoration: none !important;
-  left: 50%;
-  top: 50%;
-  margin: -10px 0 0 -10px
-}
-
-.youtube:before {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 1px;
-  height: 15px;
-  background: #FFF;
-  transform: skew(-17deg, 0);
-  margin: -23px 0 0 27px
-}
-
-.youtube:after {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 1px;
-  height: 15px;
-  background: #FFF;
-  transform: skew(-17deg, 0);
-  margin: -4px 0 0 11px
 }
 
 .story_plane {
@@ -1118,7 +1087,7 @@ header {
 
 .story_img_plane:after {
   position: absolute;
-  background: #000
+  background: #000;
   z-index: 4;
   width: 10%;
   height: 400px;
